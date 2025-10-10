@@ -3,7 +3,7 @@
 #include "freertos/task.h" // Librería necesaria para usar las tareas de FreeRTOS
 #include "driver/gpio.h" // Librería necesaria para manejar los pines GPIO
 
-#define LED_GPIO GPIO_NUM_2 // Pin donde está conectado el LED
+#define LED_GPIO GPIO_NUM_23 // Pin donde está conectado el LED
 
 // Duraciones en milisegundos para el código Morse
 #define DOT_MS 200
